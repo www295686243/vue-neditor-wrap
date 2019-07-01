@@ -2,7 +2,7 @@
 
 ## Installation
 ```bash
-$ npm i vue-neditor-wrap
+$ npm i vue-neditor-wrap-wx
 ```
 
 ## Quick Start
@@ -13,7 +13,7 @@ $ npm i vue-neditor-wrap
 
 2. 引入`VueNeditorWrap`组件
 
-    `import VueNeditorWrap from 'vue-neditor-wrap'`
+    `import VueNeditorWrap from 'vue-neditor-wrap-wx'`
 
 3. 注册组件
     ```js

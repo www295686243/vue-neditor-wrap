@@ -74,7 +74,13 @@ export default {
         const btn = new UE.ui.Button({
           name,
           title: tip,
-          cssRules: `background-image: url(${icon}) !important;background-size: cover;`,
+          cssRules: `
+            background-image: url(${icon}) !important;
+            background-size: 20px;
+            background-position: 50%;
+            background-repeat: no-repeat;
+          `,
+          theme: window.UEDITOR_CONFIG.theme,
           onclick() {
             editor.execCommand(name);
           }
